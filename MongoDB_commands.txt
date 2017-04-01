@@ -1,0 +1,13 @@
+MongoDB
+
+$group - groupby
+$sort - sort
+$project - select
+$match - where
+$skip - skip some documents (at the beginning)
+$limit - limit : skip some documents (at the end)
+$unwind - when value X of the document is a list, the command will break the list by creating multiple copies of document, each will take one element from the list as the value X
+
+Operators:
+addToSet - creates a set from a column with unique values
+push - similar to addToSet, but it takes all values, not necessarily unique values 
